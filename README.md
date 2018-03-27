@@ -1,62 +1,17 @@
-<!-- <img src='imgs/horse2zebra.gif' align="right" width=384> 
 
-<br><br><br>
--->
 # CycleGAN
 
-Tensorflow implementation for learning an image-to-image translation **without** input-output pairs.
+Tensorflow implementation for cyclegan, "Alien:Covenant" is used to distinguish it from other tensorflow implementations.
 The method is proposed by [Jun-Yan Zhu](https://people.eecs.berkeley.edu/~junyanz/) in 
-[Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networkssee](https://arxiv.org/pdf/1703.10593.pdf). 
-For example in paper:
+[Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networkssee](https://arxiv.org/pdf/1703.10593.pdf).
 
-<img src="imgs/teaser.jpg" width="1000px"/>
+#Reference
 
-<!--
-## Applications
-### Monet Paintings to Photos
-<img src="imgs/painting2photo.jpg" width="1000px"/>
+[CycleGAN-tensorflow](https://github.com/xhujoy/CycleGAN-tensorflow) The best tensorflow implementation of cyclegan,I think, and I use its training and test module,while I write G and D myself.
 
-### Collection Style Transfer
-<img src="imgs/photo2painting.jpg" width="1000px"/>
-
-### Object Transfiguration
-<img src="imgs/objects.jpg" width="1000px"/>
-
-### Season Transfer
-<img src="imgs/season.jpg" width="1000px"/>
-
-### Photo Enhancement: iPhone photo to DSLR photo
-<img src="imgs/photo_enhancement.jpg" width="1000px"/>
-
--->
-
-## Update Results
-The results of this implementation:
-
-- Horses -> Zebras <br>
-<img src="imgs/n02381460_510.jpg" width="200px"/> <img src="imgs/AtoB_n02381460_510.jpg" width="200px"/> <img src="imgs/n02381460_4530.jpg" width="200px"/> <img src="imgs/AtoB_n02381460_4530.jpg" width="200px"/> <img src="imgs/n02381460_4660.jpg" width="200px"/> <img src="imgs/AtoB_n02381460_4660.jpg" width="200px"/> <img src="imgs/n02381460_8980.jpg" width="200px"/> <img src="imgs/AtoB_n02381460_8980.jpg" width="200px"/>
-
-- Zebras -> Horses <br>
-<img src="imgs/n02391049_1760.jpg" width="200px"/> <img src="imgs/BtoA_n02391049_1760.jpg" width="200px"/> <img src="imgs/n02391049_3070.jpg" width="200px"/> <img src="imgs/BtoA_n02391049_3070.jpg" width="200px"/> <img src="imgs/n02391049_5100.jpg" width="200px"/> <img src="imgs/BtoA_n02391049_5100.jpg" width="200px"/> <img src="imgs/n02391049_7150.jpg" width="200px"/> <img src="imgs/BtoA_n02391049_7150.jpg" width="200px"/>
-
-You can download the pretrained model from [this url](https://1drv.ms/u/s!AroAdu0uts_gj5tA93GnwyfRpvBIDA)
-and extract the rar file to `./checkpoint/`.
-
-
-## Prerequisites
-- tensorflow r1.1
-- numpy 1.11.0
-- scipy 0.17.0
-- pillow 3.3.0
+[pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) Original pytorch implementation of Cyclegan
 
 ## Getting Started
-### Installation
-- Install tensorflow from https://github.com/tensorflow/tensorflow
-- Clone this repo:
-```bash
-git clone https://github.com/xhujoy/CycleGAN-tensorflow
-cd CycleGAN-tensorflow
-```
 
 ### Train
 - Download a dataset (e.g. zebra and horse images from ImageNet):
