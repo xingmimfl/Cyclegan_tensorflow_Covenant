@@ -5,11 +5,13 @@ Tensorflow implementation for cyclegan, "Alien:Covenant" is used to distinguish 
 The method is proposed by [Jun-Yan Zhu](https://people.eecs.berkeley.edu/~junyanz/) in 
 [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networkssee](https://arxiv.org/pdf/1703.10593.pdf).
 
-#Reference
+# Reference
 
 [CycleGAN-tensorflow](https://github.com/xhujoy/CycleGAN-tensorflow) The best tensorflow implementation of cyclegan,I think, and I use its training and test module,while I write G and D myself.
 
 [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) Original pytorch implementation of Cyclegan
+
+![image](https://github.com/xingmimfl/Cyclegan_tensorflow_Covenant/images/images.jpg)
 
 ## Getting Started
 
