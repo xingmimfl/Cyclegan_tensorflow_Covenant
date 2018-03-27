@@ -11,7 +11,7 @@ The method is proposed by [Jun-Yan Zhu](https://people.eecs.berkeley.edu/~junyan
 
 [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) Original pytorch implementation of Cyclegan
 
-![image](https://github.com/xingmimfl/Cyclegan_tensorflow_Covenant/images/images.jpg)
+![image](https://github.com/xingmimfl/Cyclegan_tensorflow_Covenant/blob/master/images/images.jpg)
 
 ## Getting Started
 
